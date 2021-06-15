@@ -1,0 +1,301 @@
+* { box-sizing: border-box; }
+  body { font-family: "Lato", sans-serif; font-size: 16px; font-weight: 300; margin: 0 auto;  } 
+  h1 { font-size: 1.8em; word-break: break-all; color: #3D5467 }
+  h2 { font-size: 1em; font-weight: 300;  color: #5a7d99; padding-bottom: 2%; }
+  a { color: lightseagreen; text-decoration: none; } 
+   
+  .hide { display: none; }
+  .container {
+    display: grid;
+    grid-template-areas:
+    "gheader" 
+    "gcontent"
+    "gfooter";  
+    min-height:90vh;
+  }
+  header {   
+    animation: sliding-background 55s linear infinite;
+    background: url("https://images.unsplash.com/photo-1440968872456-dec3196b9bee") no-repeat left  ;  
+    background-size: 200% auto;
+    background-attachment: fixed; 
+   
+    text-align: left;   
+    max-width: 100%;
+    min-height: 10vh;
+    grid-area: gheader;
+  } 
+  @keyframes sliding-background {
+    0%, 100% {
+      background-position: 10% 50%;
+    }
+    10% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 50% 50%;
+    } 
+  }
+
+  header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10em; 
+    font-weight: 700;
+    letter-spacing: 6px; 
+    background-color: #fff;
+    max-width: 100%;
+    max-height: 100%;
+    
+    color: black;
+    
+    letter-spacing: 1vw; 
+    mix-blend-mode: lighten;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    opacity: 0.9;
+  }
+  header h1:before {
+    color: white;
+    content: attr(data-text);
+    margin-left: -1%;
+    margin-top: -1%;
+    position: absolute;
+  }
+  @media (max-width: 700px) {
+    header h1 {
+      font-size: 7em; 
+
+     margin-left: 2%;
+     margin-right: 2%;
+    }
+  }
+  header small {
+    font-size: 1rem; 
+    display: block;
+  }
+  .app {
+    grid-area: gcontent;
+  }
+  .category {
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase; 
+    padding: 3% 2%;
+  }
+  .category li { display: inline-block; list-style-type: none;  text-align: center; padding: 0.5em;   }
+  .category li:hover {
+     cursor:pointer;
+  }
+  .category li a:hover {  color: #1A232B;  }
+  .content {
+    display: flex;
+    flex-direction: column;
+     
+  }
+  .wrapper-header { 
+  }
+  .wrapper { 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    /* grid-column-gap: 3%;
+    grid-row-gap: 1.5%; 
+    */ 
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%; 
+    background-color: #fff;
+    color: #333; 
+    
+    font-size: 1em;
+    height: 100%;
+  }
+  @media (max-width: 700px) {
+    .wrapper {
+      grid-template-columns: 1fr; 
+      /* grid-row-gap: 0.5%;  */
+      padding-left: 2%;
+      padding-right: 2%;
+      
+    }
+  }
+
+  .box {  
+    padding: 2em 2.5em; 
+    height: 100%;
+    max-height: 400px;
+    overflow: hidden; 
+    color: #666; 
+    cursor:pointer;
+    transition:  all 0.5s linear; 
+    background: linear-gradient(
+      to right, 
+      hsl(98 80% 42%), 
+      hsl(207, 26%, 48%),
+      hsl(204 80% 59%)
+      
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+   
+  } 
+  .box .inbox {
+    overflow: hidden;
+    max-height: 95%;
+  }
+  .box:hover {
+    background-color: #f4f4f4; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; 
+    transition:  all 0.5s linear; 
+  }
+   .img-responsive {
+    max-width: 100%; height: auto; 
+    object-fit: cover; 
+    
+  }
+  .box p { overflow: hidden; }
+  .box img:hover { transform:scale(2); transition: ease all 1.2s; }
+  
+  .show {
+  display: block;
+  transition: 0.3s;
+}
+.box-details {
+  margin: 0 auto;
+  padding: auto;
+  max-width: 80vw; 
+  padding: 2em 2.5em; 
+  transition:  all 0.5s linear; 
+  background: linear-gradient(
+    to right, 
+    hsl(98 100% 62%), 
+    hsl(207, 26%, 48%),
+    hsl(204 100% 89%)
+    
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;  
+  
+}
+@media (max-width: 700px) {
+  .box-details {
+    max-width: 100vw; 
+  }
+}
+.box-details .box-cat {
+  padding-left: 0.5em;
+  padding-right: 0.5em; 
+  
+}
+
+.box-details h1 {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  font-size: 2.5em;
+
+}
+.box-details .p-img {
+  max-height: 90vh;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  transform: translateY(0px); 
+  transition: all 8s ease-in-out;
+}
+.box-details .p-img:hover img {
+  transform: translateY(calc(-100% + 300px));  
+  transition: all 8s ease-in-out;
+}
+.button-holder {
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+}
+ 
+@media (max-width: 700px) {
+  .button-holder {
+      padding-left: 2%;
+      padding-right: 2%;
+  }
+}
+.button-holder button {
+  border: 0;
+  padding: 2% 1%;
+  width: 25%;
+  position: relative; 
+  text-transform: uppercase;
+  
+  background-color: #eee;
+  color: #000; 
+}
+.button-holder:hover button { 
+  transition:  all 0.4s linear; 
+  color: #fff; 
+}
+
+.button-holder button::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+  background: linear-gradient( to right, hsl(98 100% 62%), hsl(207, 26%, 48%), hsl(204 100% 89%) );
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.4s linear;
+}
+
+.button-holder button:hover::before {
+  opacity: 1;
+} 
+.button-holder button span {
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+
+.loading {
+  text-align: center;
+}
+footer {
+  grid-area: gfooter;
+  position: relative;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;  
+  margin-top: 5em;
+}
+footer a {padding: 0.3em;}
+
+/* GENERAL STYLES */
+.pull-right {
+  text-align: right;  
+} 
+ 
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.avatar {
+  max-height: 2vh;
+  max-width: 2vw;
+}
+.active {
+  background-color: #eee;
+}
+.run {
+  transform: scale(0.5) translatey(-80px);
+}
+ 
+.nav {
+  text-align: center;
+}

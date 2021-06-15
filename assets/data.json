@@ -1,0 +1,182 @@
+﻿{
+  "projects": {
+    "project": [
+      {
+        "id": "1",
+        "name": "Taxi",
+        "shortdesc": "Taxi booking - website + administration panel",
+        "desc": "Taxi booking - website + administration panel",
+        "link": "https://taxi-git-master.kania0507.vercel.app/",
+        "ghlink": "https://github.com/kania0507/taxi",
+        "wplink": "#", 
+        "category": ["php", "laravel", "psd Xd"],
+        "photo": "Taxi Cab Service Company Website Template PSD.png"
+      },
+      {
+        "id": "2",
+        "name": "Minty",
+        "shortdesc": "WP theme based on vuejs & WP REST API (+CPT). ",
+        "desc": "WP theme based on vuejs & WP REST API (+CPT). Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/minty",
+        "wplink": "",
+        "category": ["php", "wordpress"],
+        "photo": "minty.png"
+      },
+      {
+        "id": "3",
+        "name": "Larestae",
+        "shortdesc": "Laravel app, restaurant reservation admin side + vuejs frontend. ",
+        "desc": "Laravel app, restaurant reservation admin side + vuejs frontend. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/larestae",
+        "wplink": "#",
+        "category": ["vue", "laravel","php"],
+        "photo": "larestae-products.png"
+      },
+      {
+        "id": "4",
+        "name": "MyLucid",
+        "shortdesc": "HTML, SCSS, Gulp project ",
+        "desc": "HTML, SCSS, Gulp project. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "http://mylucid-git-master.kania0507.vercel.app/",
+        "ghlink": "https://github.com/kania0507/mylucid",
+        "wplink": "#",
+        "category": ["psd Xd"],
+        "photo": "mylucid.jpg"
+      },
+      {
+        "id": "5",
+        "name": "IP Address Tracker",
+        "shortdesc": "IP Address Tracker ",
+        "desc": "IP Address Tracker. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "http://ip-address-tracker-git-master.kania0507.vercel.app/",
+        "ghlink": "https://github.com/kania0507/IPAddressTracker",
+        "wplink": "#",
+        "category": ["other"],
+        "photo": "ipaddresstracker.png"
+      },
+      {
+        "id": "6",
+        "name": "VJobs",
+        "shortdesc": "Job listing page with filtering in Vuejs",
+        "desc": "desc4",
+        "link": "",
+        "ghlink": "https://github.com/kania0507/vjobs",
+        "wplink": "#",
+        "category": ["vue"],
+        "photo": "desktop-preview.jpg"
+      },
+      {
+        "id": "7",
+        "name": "wpadmapi",
+        "shortdesc": "Wordpress plugin (admin area)",
+        "desc": "Plugin allows the admin to search an api and return results in a table displayed in the WP Admin Plugin page API Endpoint: http://jservice.io/api/clues ( clues.json ). Each result should have a save button that creates a post with the following data saved: Post Title = item.question Post Content = item.answer Post Type = jeopardy ",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/wpadmapi",
+        "wplink": "#",
+        "category": ["wordpress", "php"],
+        "photo": "wpadmapi.png"
+      },
+      {
+        "id": "8",
+        "name": "Easy-filterable-gallery ",
+        "shortdesc": "Easy Filterable Gallery Wordpress plugin ",
+        "desc": "Easy Filterable Gallery Wordpress plugin ",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/easy-filterable-gallery",
+        "wplink": "https://wordpress.org/plugins/easy-filterable-gallery/",
+        "category": ["wordpress", "php"],
+        "photo": "easy-filterable-gallery.png"
+      },
+      {
+        "id": "9",
+        "name": "Remove-spam-links Wordpress plugin ",
+        "shortdesc": "Remove-spam-links Wordpress plugin ",
+        "desc": "Remove-spam-links Wordpress plugin",
+        "link": "https://seowp.pl/plugins/remove-spam-links-from-wordpress-comments/",
+        "ghlink": "https://github.com/kania0507/remove-spam-links",
+        "wplink": "https://github.com/kania0507/remove-spam-links",
+        "category": ["php", "wordpress"],
+        "photo": "link-in-comment.png"
+      },
+      {
+        "id": "10",
+        "name": "Ajaxrch ",
+        "shortdesc": "Ajax search plugin for WP with custom search form Searching titles, excerpt and content.",
+        "desc": "Ajax search plugin for WP with custom search form Searching titles, excerpt and content.",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/Ajaxrch",
+        "wplink": "#",
+        "category": [ "wordpress"],
+        "photo": "ajaxsearch.png"
+      },
+      {
+        "id": "10",
+        "name": "NVue",
+        "shortdesc": "Application reads data from rest-api source, data can be ranked with stars (VueJS), not styled. ",
+        "desc": "Application reads data from rest-api source, data can be ranked with stars (VueJS), not styled. ",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/nvue",
+        "wplink": "#",
+        "category": [ "vue"],
+        "photo": "nvue.png"
+      },
+      {
+        "id": "11",
+        "name": "sfblogsimple ",
+        "shortdesc": "Simple blog Symfony application  ",
+        "desc": "Simple blog Symfony application  ",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/sfblogsimple",
+        "wplink": "#",
+        "category": [ "php"],
+        "photo": ""
+      },
+      {
+        "id": "12",
+        "name": "Organix ",
+        "shortdesc": "Woocommerce theme  ",
+        "desc": "Woocommerce theme  ",
+        "link": "#",
+        "ghlink": "#",
+        "wplink": "#",
+        "category": [ "php", "wordpress", "psd Xd"],
+        "photo": "organix.png"
+      },
+      {
+        "id": "13",
+        "name": "Laresta frontend ",
+        "shortdesc": "Laresta frontend",
+        "desc": "Woocommerce theme  ",
+        "link": "#",
+        "ghlink": "#",
+        "wplink": "#",
+        "category": [ "psd Xd", "vue" ],
+        "photo": "laresta-front.png"
+      },
+      {
+        "id": "14",
+        "name": "Portfolio Vue",
+        "shortdesc": "Personal portfolio in Vuejs with fetching JSON data file",
+        "desc": "Personal portfolio in Vuejs with fetching JSON data file",
+        "link": "#",
+        "ghlink": "#",
+        "wplink": "#",
+        "category": [ "vue" ],
+        "photo": "vportfolio.png"
+      },
+{
+        "id": "14",
+        "name": "MiVi",
+        "shortdesc": "Product page",
+        "desc": "Product page based on freebie: https://freebiesui.com/xd-freebies/product-page-template/",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/mivi",
+        "wplink": "#",
+        "category": [ "psd Xd" ],
+        "photo": "MiviLandingPageTemplate-xd.png"
+      }
+    ]
+  }
+}
