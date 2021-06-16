@@ -6,34 +6,43 @@ const ProjectDetails = {
             <router-link to="/" class="p_2"><i class="fas fa-chevron-left"></i> <u>Back to list of projects</u></router-link> 
         </nav>
 
-        <h1>{{ obj.name }}  <small class="pull-right"><a v-if="this.obj.ghlink" :href="this.obj.ghlink" title="Code on Github"><i class="fa fab fa-github "></i></a>  
-        <a :href="obj.link" title="Demo"><i class="fa fa-link" ></i></a></small></h1> 
-        <h2>{{ this.obj.desc }}</h2>
-        <span class="box-cat" v-for="cat in this.obj.category">{{ cat }}</span>
-        <p class="p-img"  :class="{ hide: this.obj.photo == ''}"><img   :src="'./assets/img/'+this.obj.photo"  class="img-responsive"   /></p> 
+        <h1>{{ obj.name }}  <small class="pull-right"><a :class="{ hide: obj.ghlink == ''}"  :href="obj.ghlink" title="Code on Github"><i class="fa fab fa-github "></i></a>  
+        <a :class="{ hide: (obj.link == '' || obj.link == '#') }" :href="obj.link" title="Demo"><i class="fa fa-link" ></i></a></small></h1> 
+        <h2>{{ obj.desc }}</h2>
+        Technologies: <span class="box-cat" v-for="cat in obj.category"> {{ cat }}</span>
+        <p class="p-img"  :class="{ hide: obj.photo == ''}"><img   :src="'./assets/img/'+obj.photo"  class="img-responsive"   /></p> 
         
     </div>
-    <div class="button-holder"><button style="float:left"><span>Prev project</span></button> 
-        <button style="float:right"><span>Next project</span></button></div>
+    <div class="button-holder"  :class="{ hide: prjCount == 1}"><router-link v-if="obj && obj.id>1 " :to="{name: 'ProjectDetails',  params: {id:(this.$route.params.id-1), obj:obj} }" replace><button style="float:left" ><span>Prev project</span></button></router-link>
+        <router-link v-if="obj && obj.id<prjCount " :to="{name: 'ProjectDetails',  params: {id:(++this.$route.params.id), obj:obj} }" replace><button style="float:right"><span>Next project</span></button></router-link></div>
     </div>`,
     data() { 
             return {    
-                obj: {}
+                obj: {}, 
+                prjCount:0
             }
         },
+    methods: {
+       
+    },
     created() {
-        this.obj = this.$route.params; 
-        //console.log('this obj: '+this.obj.name);
-        }, 
+        this.obj = this.$route.params.propObj;  
+        this.prjCount=this.$route.params.prjCount; 
+        // console.log('Route name: '+this.$route.name + ' / Route history current path '+ this.$router.history.current.path + ' ID params: ' + this.$route.params.id );
+        //console.log(this.$route.query.id);    
+        
+        //console.log(this.obj);
+        //console.log('PROJECT DETAILS: '+this.prjCount);
+    },  
  
 }
 
 
 const Project = { template: `  
-    <router-link v-if="propObj" :to="{name: 'ProjectDetails', path: '/projects/'+propObj.id, params: propObj }">
+    <router-link v-if="propObj" :to="{name: 'ProjectDetails', path: '/projects/'+propObj.id, params: {id: propObj.id, propObj:propObj, prjCount:prjCount } }">
         <div class="inbox">
             <h1>{{ propObj.name }} </h1>  
-            <p  :class="{ hide: propObj.photo == ''}" > <img    :src="'./assets/img/'+propObj.photo"  class="img-responsive" /></p>  
+            <p  :class="{ hide: propObj.photo == ''}" > <img  v-if="propObj.photo != ''"  :src="'./assets/img/'+propObj.photo"  class="img-responsive" /></p>  
         </div>
         </router-link>
     `,
@@ -44,6 +53,10 @@ const Project = { template: `
     },
     props: { 
         propObj: { type: Object, required: true },
+        prjCount: { type: Number}
+    },
+    mounted(){
+        //console.log('PROJECT: '+this.prjCount);
     }
 }
  
@@ -64,11 +77,11 @@ const Projects = {
         <main  class="wrapper" v-else>
             <div v-for="(project,index) in projectsList"  v-if="(project.category.includes(currentFilter) || currentFilter === 'all')">
                 <div class="box php laravel psd"  >
-                    <Project :propObj=project></Project> 
+                    <Project :propObj=project :prjCount=projects.length></Project> 
                 </div> 
             </div>  
         </main>
-        <div class="button-holder" v-if="!projectsList || projectsList.length < projects.length"><button @click.prevent="loadMore()"><span>Load more</span></button></div>
+        <div class="button-holder" v-if="!loading &&  (projectsList.length < projects.length)"><button @click.prevent="loadMore()"><span>Load more</span></button></div>
 
     </div>
     `, 
@@ -88,16 +101,16 @@ const Projects = {
             projectsList:null,
             
             }
-    },
+    },/*
     props: {
         anObject: Object
-     },
+     },*/
     components: {
         Project, ProjectDetails
       },
      
     methods:{
-        fetchData: function () { // https://api.github.com/users/fbhood/repos?per_page=${this.perPage}&page=${this.page}
+        fetchData: function () { 
             axios.get(`./assets/data.json`, {
                 params: {
                     per_page:this.perPage,
@@ -122,11 +135,14 @@ const Projects = {
             }).finally( ()=> {
                 this.loading = false;
                 this.getProjects();
-                //console.log('finally '+this.projectsList);
+                //console.log(this.projectsList);
             })
+
+            
         }, 
         getProjects(){
             this.projectsList = this.projects.slice(0, this.projectsCount);
+            //console.log('PROJECTS: '+this.projects.length + 'PL' + this.projectsList.length);
             return this.projectsList;
         },
         loadMore(){
@@ -141,7 +157,8 @@ const Projects = {
     },
     mounted(){
       setTimeout(this.fetchData, 1000);
-    }
+     
+    } 
     
 }
 

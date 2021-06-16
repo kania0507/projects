@@ -26,7 +26,7 @@
             <h1>Hello, <small>Scroll down to see my works.</small></h1> 
         </header>
         <div id="app" class="app"> 
-            <router-view></router-view> 
+            <router-view  :key="$route.path"></router-view> 
         </div>
         <footer>   
             &copy; AKC <a href="https://github.com/kania0507"><i class="fa fab fa-github "></i></a>  <a href="https://profiles.wordpress.org/kaniaa/"><i class="fa fab fa-wordpress"></i></a>
