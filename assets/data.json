@@ -176,6 +176,28 @@
         "wplink": "#",
         "category": [ "psd Xd" ],
         "photo": "MiviLandingPageTemplate-xd.png"
+      },
+       {
+        "id": "15",
+        "name": "Ecommerce product page",
+        "shortdesc": "Ecommerce product page with Tailwind",
+        "desc": "E-commerce product page from Frontend Mentor https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/fm-product-ecomm",
+        "wplink": "#",
+        "category": [ "other" ],
+        "photo": "ecomm-desktop-preview.jpg"
+      },
+      {
+        "id": "16",
+        "name": "Multistep form",
+        "shortdesc": "Multistep form with vue & vuex",
+        "desc": "Multi-step form - with Vue & Vuex https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/multistepform",
+        "wplink": "#",
+        "category": [ "vue" ],
+        "photo": "msf.jpg"
       }
     ]
   }
