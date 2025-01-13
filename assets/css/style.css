@@ -97,10 +97,7 @@
   }
   .wrapper { 
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    /* grid-column-gap: 3%;
-    grid-row-gap: 1.5%; 
-    */ 
+    grid-template-columns: repeat(3, 1fr);
     padding-bottom: 10%;
     padding-left: 10%;
     padding-right: 10%; 
@@ -164,7 +161,7 @@
 .box-details {
   margin: 0 auto;
   padding: auto;
-  max-width: 80vw; 
+  width: 80vw; 
   padding: 2em 2.5em; 
   transition:  all 0.5s linear; 
   background: linear-gradient(
