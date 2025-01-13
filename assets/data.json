@@ -1,4 +1,4 @@
-﻿{
+{
   "projects": {
     "project": [
       {
@@ -14,17 +14,6 @@
       },
       {
         "id": "2",
-        "name": "Minty",
-        "shortdesc": "WP theme based on vuejs & WP REST API (+CPT). ",
-        "desc": "WP theme based on vuejs & WP REST API (+CPT). Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-        "link": "#",
-        "ghlink": "https://github.com/kania0507/minty",
-        "wplink": "",
-        "category": ["php", "wordpress"],
-        "photo": "minty.png"
-      },
-      {
-        "id": "3",
         "name": "Larestae",
         "shortdesc": "Laravel app, restaurant reservation admin side + vuejs frontend. ",
         "desc": "Laravel app, restaurant reservation admin side + vuejs frontend. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
@@ -33,6 +22,17 @@
         "wplink": "#",
         "category": ["vue", "laravel","php"],
         "photo": "larestae-products.png"
+      },
+      {
+        "id": "3",
+        "name": "Minty",
+        "shortdesc": "WP theme based on vuejs & WP REST API (+CPT). ",
+        "desc": "WP theme based on vuejs & WP REST API (+CPT). Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/minty",
+        "wplink": "",
+        "category": ["php", "wordpress"],
+        "photo": "minty.png"
       },
       {
         "id": "4",
@@ -47,14 +47,14 @@
       },
       {
         "id": "5",
-        "name": "IP Address Tracker",
-        "shortdesc": "IP Address Tracker ",
-        "desc": "IP Address Tracker. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "link": "http://ip-address-tracker-git-master.kania0507.vercel.app/",
-        "ghlink": "https://github.com/kania0507/IPAddressTracker",
+        "name": "Multistep form",
+        "shortdesc": "Multistep form with vue & vuex",
+        "desc": "Multi-step form - with Vue & Vuex https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/multistepform",
         "wplink": "#",
-        "category": ["other"],
-        "photo": "ipaddresstracker.png"
+        "category": [ "vue" ],
+        "photo": "msf.jpg"
       },
       {
         "id": "6",
@@ -69,14 +69,14 @@
       },
       {
         "id": "7",
-        "name": "wpadmapi",
-        "shortdesc": "Wordpress plugin (admin area)",
-        "desc": "Plugin allows the admin to search an api and return results in a table displayed in the WP Admin Plugin page API Endpoint: http://jservice.io/api/clues ( clues.json ). Each result should have a save button that creates a post with the following data saved: Post Title = item.question Post Content = item.answer Post Type = jeopardy ",
-        "link": "#",
-        "ghlink": "https://github.com/kania0507/wpadmapi",
+        "name": "IP Address Tracker",
+        "shortdesc": "IP Address Tracker ",
+        "desc": "IP Address Tracker. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "link": "http://ip-address-tracker-git-master.kania0507.vercel.app/",
+        "ghlink": "https://github.com/kania0507/IPAddressTracker",
         "wplink": "#",
-        "category": ["wordpress", "php"],
-        "photo": "wpadmapi.png"
+        "category": ["other"],
+        "photo": "ipaddresstracker.png"
       },
       {
         "id": "8",
@@ -112,73 +112,18 @@
         "photo": "ajaxsearch.png"
       },
       {
-        "id": "10",
-        "name": "NVue",
-        "shortdesc": "Application reads data from rest-api source, data can be ranked with stars (VueJS), not styled. ",
-        "desc": "Application reads data from rest-api source, data can be ranked with stars (VueJS), not styled. ",
-        "link": "#",
-        "ghlink": "https://github.com/kania0507/nvue",
-        "wplink": "#",
-        "category": [ "vue"],
-        "photo": "nvue.png"
-      },
-      {
         "id": "11",
-        "name": "sfblogsimple ",
-        "shortdesc": "Simple blog Symfony application  ",
-        "desc": "Simple blog Symfony application  ",
+        "name": "wpadmapi",
+        "shortdesc": "Wordpress plugin (admin area)",
+        "desc": "Plugin allows the admin to search an api and return results in a table displayed in the WP Admin Plugin page API Endpoint: http://jservice.io/api/clues ( clues.json ). Each result should have a save button that creates a post with the following data saved: Post Title = item.question Post Content = item.answer Post Type = jeopardy ",
         "link": "#",
-        "ghlink": "https://github.com/kania0507/sfblogsimple",
+        "ghlink": "https://github.com/kania0507/wpadmapi",
         "wplink": "#",
-        "category": [ "php"],
-        "photo": ""
+        "category": ["wordpress", "php"],
+        "photo": "wpadmapi.png"
       },
       {
         "id": "12",
-        "name": "Organix ",
-        "shortdesc": "Woocommerce theme  ",
-        "desc": "Woocommerce theme  ",
-        "link": "#",
-        "ghlink": "#",
-        "wplink": "#",
-        "category": [ "php", "wordpress", "psd Xd"],
-        "photo": "organix.png"
-      },
-      {
-        "id": "13",
-        "name": "Laresta frontend ",
-        "shortdesc": "Laresta frontend",
-        "desc": "Woocommerce theme  ",
-        "link": "#",
-        "ghlink": "#",
-        "wplink": "#",
-        "category": [ "psd Xd", "vue" ],
-        "photo": "laresta-front.png"
-      },
-      {
-        "id": "14",
-        "name": "Portfolio Vue",
-        "shortdesc": "Personal portfolio in Vuejs with fetching JSON data file",
-        "desc": "Personal portfolio in Vuejs with fetching JSON data file",
-        "link": "#",
-        "ghlink": "#",
-        "wplink": "#",
-        "category": [ "vue" ],
-        "photo": "vportfolio.png"
-      },
-{
-        "id": "14",
-        "name": "MiVi",
-        "shortdesc": "Product page",
-        "desc": "Product page based on freebie: https://freebiesui.com/xd-freebies/product-page-template/",
-        "link": "#",
-        "ghlink": "https://github.com/kania0507/mivi",
-        "wplink": "#",
-        "category": [ "psd Xd" ],
-        "photo": "MiviLandingPageTemplate-xd.png"
-      },
-       {
-        "id": "15",
         "name": "Ecommerce product page",
         "shortdesc": "Ecommerce product page with Tailwind",
         "desc": "E-commerce product page from Frontend Mentor https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6",
@@ -189,15 +134,70 @@
         "photo": "ecomm-desktop-preview.jpg"
       },
       {
-        "id": "16",
-        "name": "Multistep form",
-        "shortdesc": "Multistep form with vue & vuex",
-        "desc": "Multi-step form - with Vue & Vuex https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ",
+        "id": "13",
+        "name": "Organix ",
+        "shortdesc": "Woocommerce theme  ",
+        "desc": "Woocommerce theme  ",
         "link": "#",
-        "ghlink": "https://github.com/kania0507/multistepform",
+        "ghlink": "#",
+        "wplink": "#",
+        "category": [ "php", "wordpress", "psd Xd"],
+        "photo": "organix.png"
+      },
+      {
+        "id": "14",
+        "name": "Laresta frontend ",
+        "shortdesc": "Laresta frontend",
+        "desc": "Woocommerce theme  ",
+        "link": "#",
+        "ghlink": "#",
+        "wplink": "#",
+        "category": [ "psd Xd", "vue" ],
+        "photo": "laresta-front.png"
+      },
+      {
+        "id": "15",
+        "name": "Portfolio Vue",
+        "shortdesc": "Personal portfolio in Vuejs with fetching JSON data file",
+        "desc": "Personal portfolio in Vuejs with fetching JSON data file",
+        "link": "#",
+        "ghlink": "#",
         "wplink": "#",
         "category": [ "vue" ],
-        "photo": "msf.jpg"
+        "photo": "vportfolio.png"
+      },
+      {
+        "id": "16",
+        "name": "MiVi",
+        "shortdesc": "Product page",
+        "desc": "Product page based on freebie: https://freebiesui.com/xd-freebies/product-page-template/",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/mivi",
+        "wplink": "#",
+        "category": [ "psd Xd" ],
+        "photo": "MiviLandingPageTemplate-xd.png"
+      },
+      {
+        "id": "17",
+        "name": "sfblogsimple ",
+        "shortdesc": "Simple blog Symfony application  ",
+        "desc": "Simple blog Symfony application  ",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/sfblogsimple",
+        "wplink": "#",
+        "category": [ "php"],
+        "photo": ""
+      },
+      {
+        "id": "18",
+        "name": "NVue",
+        "shortdesc": "Application reads data from rest-api source, data can be ranked with stars (VueJS), not styled. ",
+        "desc": "Application reads data from rest-api source, data can be ranked with stars (VueJS), not styled. ",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/nvue",
+        "wplink": "#",
+        "category": [ "vue"],
+        "photo": "nvue.png"
       }
     ]
   }
