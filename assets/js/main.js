@@ -10,7 +10,7 @@ const ProjectDetails = {
         <a :class="{ hide: (obj.link == '' || obj.link == '#') }" :href="obj.link" title="Demo"><i class="fa fa-link" ></i></a></small></h1> 
         <h2>{{ obj.desc }}</h2>
         Technologies: <span class="box-cat" v-for="cat in obj.category"> {{ cat }}</span>
-        <p class="p-img"  :class="{ hide: obj.photo == ''}"><img   :src="'./assets/img/'+obj.photo"  class="img-responsive"   /></p> 
+        <p class="p-img"  :class="{ hide: obj.photo == ''}"><img   :src="'../assets/img/'+obj.photo"  class="img-responsive"   /></p> 
         
     </div>
     <div class="button-holder" :class="{ hide: prjCount == 1}"><router-link v-if="obj && indexPrev >= 0" :to="{name: 'ProjectDetails',  params: {id: ($route.params.allProjects[indexPrev].id), propObj: $route.params.allProjects[indexPrev], prjCount: prjCount, allProjects: $route.params.allProjects, cat: $route.params.cat}}" replace><button style="float:left" ><span>Prev project</span></button></router-link>
