@@ -171,7 +171,7 @@ const routes = [
 
 // create the router instance
 const router = new VueRouter({
-    //  mode: 'history',
+    mode: 'history',
     routes
 })
 
