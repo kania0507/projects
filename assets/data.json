@@ -198,6 +198,17 @@
         "wplink": "#",
         "category": [ "vue"],
         "photo": "nvue.png"
+      },
+      {
+        "id": "19",
+        "name": "Unlimit",
+        "shortdesc": "Frontend task",
+        "desc": "Unlimit - Frontend task",
+        "link": "https://unlimit-6qnp.vercel.app/",
+        "ghlink": "https://github.com/kania0507/unlimit",
+        "wplink": "#", 
+        "category": ["figma"],
+        "photo": "unlimit.jpg"
       }
     ]
   }
