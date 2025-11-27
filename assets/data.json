@@ -209,6 +209,17 @@
         "wplink": "#", 
         "category": ["figma"],
         "photo": "unlimit.jpg"
+      },
+      {
+        "id": "20",
+        "name": "Pokemon app",
+        "shortdesc": "Pokemon app",
+        "desc": "Pokemon appk",
+        "link": "https://pokemonapp-seven.vercel.app/",
+        "ghlink": "https://github.com/kania0507/pokemonapp",
+        "wplink": "#", 
+        "category": ["vue"],
+        "photo": "pokemons.png"
       }
     ]
   }
