@@ -220,6 +220,17 @@
         "wplink": "#", 
         "category": ["vue"],
         "photo": "pokemons.png"
+      },
+      {
+        "id": "21",
+        "name": "Retro console",
+        "shortdesc": "Retro console",
+        "desc": "Retro console",
+        "link": "https://tellme-kappa.vercel.app/",
+        "ghlink": "https://github.com/kania0507/tellme",
+        "wplink": "#", 
+        "category": ["vue"],
+        "photo": "console.jpg"
       }
     ]
   }
