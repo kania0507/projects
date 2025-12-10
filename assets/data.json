@@ -190,14 +190,14 @@
       },
       {
         "id": "18",
-        "name": "NVue",
-        "shortdesc": "Application reads data from rest-api source, data can be ranked with stars (VueJS), not styled. ",
-        "desc": "Application reads data from rest-api source, data can be ranked with stars (VueJS), not styled. ",
-        "link": "#",
-        "ghlink": "https://github.com/kania0507/nvue",
-        "wplink": "#",
-        "category": [ "vue"],
-        "photo": "nvue.png"
+        "name": "Retro console",
+        "shortdesc": "Retro console",
+        "desc": "Retro console",
+        "link": "https://tellme-kappa.vercel.app/",
+        "ghlink": "https://github.com/kania0507/tellme",
+        "wplink": "#", 
+        "category": ["vue"],
+        "photo": "console.jpg"
       },
       {
         "id": "19",
@@ -223,14 +223,25 @@
       },
       {
         "id": "21",
-        "name": "Retro console",
-        "shortdesc": "Retro console",
-        "desc": "Retro console",
-        "link": "https://tellme-kappa.vercel.app/",
-        "ghlink": "https://github.com/kania0507/tellme",
-        "wplink": "#", 
-        "category": ["vue"],
-        "photo": "console.jpg"
+        "name": "Kalkulator VAT",
+        "shortdesc": "Prosty kalkulator VAT stworzony w Nuxt 3 z wykorzystaniem Tailwind CSS, SQLite i Drizzle ORM.",
+        "desc": "Umożliwia dodawanie produktów, obliczanie kwoty brutto i podatku VAT oraz przeglądanie zapisanych produktów.",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/nuxt-price-appn",
+        "wplink": "#",
+        "category": [ "vue"],
+        "photo": "kalkulator_vat.jpg"
+      },
+      {
+        "id": "22",
+        "name": "NVue",
+        "shortdesc": "Application reads data from rest-api source, data can be ranked with stars (VueJS), not styled. ",
+        "desc": "Application reads data from rest-api source, data can be ranked with stars (VueJS), not styled. ",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/nvue",
+        "wplink": "#",
+        "category": [ "vue"],
+        "photo": "nvue.png"
       }
     ]
   }
