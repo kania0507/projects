@@ -242,6 +242,17 @@
         "wplink": "#",
         "category": [ "vue"],
         "photo": "nvue.png"
+      },
+      {
+        "id": "23",
+        "name": "school_app",
+        "shortdesc": "A web application for managing school grades with role-based access control. Built with Laravel, Vue 3, Inertia.js and Docker",
+        "desc": "A web application for managing school grades with role-based access control. Built with Laravel, Vue 3, Inertia.js and Docker",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/school_app",
+        "wplink": "#",
+        "category": [ "php", "laravel", vue"],
+        "photo": ""
       }
     ]
   }
