@@ -45,7 +45,7 @@ const Project = { template: `
     <router-link v-if="propObj" :to="{name: 'ProjectDetails', path: '/projects/'+ propObj.id, params: {id: propObj.id, propObj:propObj, prjCount:prjCount, allProjects: cat === 'all' ? allProjects : allProjects.filter(el => el.category.includes(cat)), cat: cat } }">
         <div class="inbox">
             <h1>{{ propObj.name }} </h1>  
-            <p v-if="propObj.small_photo !== ''" :class="{ hide: propObj.small_photo == ''}" > <img  v-if="propObj.small_photo != ''"  :src="'./assets/img/'+propObj.small_photo"  class="img-responsive" /></p>
+            <p v-if="propObj.photo_small !== ''" :class="{ hide: propObj.photo_small == ''}" > <img  v-if="propObj.photo_small != ''"  :src="'./assets/img/'+propObj.photo_small"  class="img-responsive" /></p>
             <p v-else-if="propObj.photo !== ''" :class="{ hide: propObj.photo == ''}" > <img  v-if="propObj.photo != ''"  :src="'./assets/img/'+propObj.photo"  class="img-responsive" /></p>
             <p v-if="cat"><span class="box-cat" v-for="cat in propObj.category"> {{ cat }}</span></p>
         </div>
