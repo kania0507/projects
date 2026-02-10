@@ -28,6 +28,7 @@ const ProjectDetails = {
     created() {
         this.obj = this.$route.params.propObj;  
         this.prjCount = this.$route.params.prjCount;
+        console.log(this.obj);
     },
     computed: {
         indexPrev () {
