@@ -10,7 +10,8 @@
         "ghlink": "https://github.com/kania0507/taxi",
         "wplink": "#", 
         "category": ["php", "laravel", "psd Xd"],
-        "photo": "Taxi Cab Service Company Website Template PSD.png"
+        "photo": "Taxi Cab Service Company Website Template PSD.png",
+        "photo_small": "Taxi Cab Service Company Website Template PSDsm.png"
       },
       {
         "id": "2",
@@ -21,7 +22,8 @@
         "ghlink": "https://github.com/kania0507/larestae",
         "wplink": "#",
         "category": ["vue", "laravel","php"],
-        "photo": "larestae-products.png"
+        "photo": "larestae-products.png",
+        "photo_small": "larestae-productssm.png"
       },
       {
         "id": "3",
@@ -32,7 +34,8 @@
         "ghlink": "https://github.com/kania0507/minty",
         "wplink": "",
         "category": ["php", "wordpress"],
-        "photo": "minty.png"
+        "photo": "minty.png",
+        "photo_small": "mintysm.png"
       },
       {
         "id": "4",
@@ -43,7 +46,8 @@
         "ghlink": "https://github.com/kania0507/mylucid",
         "wplink": "#",
         "category": ["psd Xd"],
-        "photo": "mylucid.jpg"
+        "photo": "mylucid.jpg",
+        "photo_small": "mylucidsm.jpg"
       },
       {
         "id": "5",
@@ -54,7 +58,8 @@
         "ghlink": "https://github.com/kania0507/multistepform",
         "wplink": "#",
         "category": [ "vue" ],
-        "photo": "msf.jpg"
+        "photo": "msf.jpg",
+        "photo_small": "msfsm.jpg"
       },
       {
         "id": "6",
@@ -65,7 +70,8 @@
         "ghlink": "https://github.com/kania0507/vjobs",
         "wplink": "#",
         "category": ["vue"],
-        "photo": "desktop-preview.jpg"
+        "photo": "desktop-preview.jpg",
+        "photo_small": "desktop-previewsm.jpg"
       },
       {
         "id": "7",
@@ -76,7 +82,8 @@
         "ghlink": "https://github.com/kania0507/IPAddressTracker",
         "wplink": "#",
         "category": ["other"],
-        "photo": "ipaddresstracker.png"
+        "photo": "ipaddresstracker.png",
+        "photo_small": "ipaddresstrackersm.png"
       },
       {
         "id": "8",
@@ -87,7 +94,8 @@
         "ghlink": "https://github.com/kania0507/easy-filterable-gallery",
         "wplink": "https://wordpress.org/plugins/easy-filterable-gallery/",
         "category": ["wordpress", "php"],
-        "photo": "easy-filterable-gallery.png"
+        "photo": "easy-filterable-gallery.png",
+        "photo_small": "easy-filterable-gallerysm.png"
       },
       {
         "id": "9",
@@ -98,7 +106,8 @@
         "ghlink": "https://github.com/kania0507/remove-spam-links",
         "wplink": "https://github.com/kania0507/remove-spam-links",
         "category": ["php", "wordpress"],
-        "photo": "link-in-comment.png"
+        "photo": "link-in-comment.png",
+        "photo_small": "link-in-commentsm.png"
       },
       {
         "id": "10",
@@ -109,7 +118,8 @@
         "ghlink": "https://github.com/kania0507/Ajaxrch",
         "wplink": "#",
         "category": [ "wordpress"],
-        "photo": "ajaxsearch.png"
+        "photo": "ajaxsearch.png",
+        "photo_small": "ajaxsearchsm.png"
       },
       {
         "id": "11",
@@ -120,7 +130,8 @@
         "ghlink": "https://github.com/kania0507/wpadmapi",
         "wplink": "#",
         "category": ["wordpress", "php"],
-        "photo": "wpadmapi.png"
+        "photo": "wpadmapi.png",
+        "photo_small": "wpadmapism.png"
       },
       {
         "id": "12",
@@ -131,7 +142,8 @@
         "ghlink": "https://github.com/kania0507/fm-product-ecomm",
         "wplink": "#",
         "category": [ "other" ],
-        "photo": "ecomm-desktop-preview.jpg"
+        "photo": "ecomm-desktop-preview.jpg",
+        "photo_small": "ecomm-desktop-previewsm.jpg"
       },
       {
         "id": "13",
@@ -142,7 +154,8 @@
         "ghlink": "#",
         "wplink": "#",
         "category": [ "php", "wordpress", "psd Xd"],
-        "photo": "organix.png"
+        "photo": "organix.png",
+        "photo_small": "organixsm.png"
       },
       {
         "id": "14",
@@ -153,7 +166,8 @@
         "ghlink": "#",
         "wplink": "#",
         "category": [ "psd Xd", "vue" ],
-        "photo": "laresta-front.png"
+        "photo": "laresta-front.png",
+        "photo_small": "laresta-frontsm.png"
       },
       {
         "id": "15",
@@ -164,7 +178,8 @@
         "ghlink": "#",
         "wplink": "#",
         "category": [ "vue" ],
-        "photo": "vportfolio.png"
+        "photo": "vportfolio.png",
+        "photo_small": "vportfoliosm.png"
       },
       {
         "id": "16",
@@ -175,7 +190,8 @@
         "ghlink": "https://github.com/kania0507/mivi",
         "wplink": "#",
         "category": [ "psd Xd" ],
-        "photo": "MiviLandingPageTemplate-xd.png"
+        "photo": "MiviLandingPageTemplate-xd.png",
+        "photo_small": "MiviLandingPageTemplate-xdsm.png"
       },
       {
         "id": "17",
@@ -186,7 +202,8 @@
         "ghlink": "https://github.com/kania0507/sfblogsimple",
         "wplink": "#",
         "category": [ "php"],
-        "photo": ""
+        "photo": "",
+        "photo_small": ""
       },
       {
         "id": "18",
@@ -197,7 +214,8 @@
         "ghlink": "https://github.com/kania0507/tellme",
         "wplink": "#", 
         "category": ["vue"],
-        "photo": "console.jpg"
+        "photo": "console.jpg",
+        "photo_small": "consolesm.jpg"
       },
       {
         "id": "19",
@@ -208,7 +226,8 @@
         "ghlink": "https://github.com/kania0507/unlimit",
         "wplink": "#", 
         "category": ["figma"],
-        "photo": "unlimit.jpg"
+        "photo": "unlimit.jpg",
+        "photo_small": "unlimitsm.jpg"
       },
       {
         "id": "20",
@@ -219,7 +238,8 @@
         "ghlink": "https://github.com/kania0507/pokemonapp",
         "wplink": "#", 
         "category": ["vue"],
-        "photo": "pokemons.png"
+        "photo": "pokemons.png",
+        "photo_small": "pokemonssm.png"
       },
       {
         "id": "21",
@@ -230,7 +250,8 @@
         "ghlink": "https://github.com/kania0507/nuxt-price-appn",
         "wplink": "#",
         "category": [ "vue", "Nuxt"],
-        "photo": "kalkulator_vat.jpg"
+        "photo": "kalkulator_vat.jpg",
+        "photo_small": "kalkulator_vatsm.jpg"
       },
       {
         "id": "22",
@@ -241,7 +262,8 @@
         "ghlink": "https://github.com/kania0507/nvue",
         "wplink": "#",
         "category": [ "vue"],
-        "photo": "nvue.png"
+        "photo": "nvue.png",
+        "photo_small": "nvuesm.png"
       },
       {
         "id": "23",
@@ -252,7 +274,8 @@
         "ghlink": "https://github.com/kania0507/school_app",
         "wplink": "#",
         "category": [ "php", "laravel", "vue"],
-        "photo": "scr0002.png"
+        "photo": "scr0002.png",
+        "photo_small": "scr0002sm.png"
       }
     ]
   }
