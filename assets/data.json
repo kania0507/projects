@@ -276,6 +276,18 @@
         "category": [ "php", "laravel", "vue"],
         "photo": "scr0002.png",
         "photo_small": "scr0002sm.png"
+      },
+      {
+        "id": "24",
+        "name": "old-users-notifier",
+        "shortdesc": "Secure WordPress plugin for detecting inactive users.",
+        "desc": "Secure WordPress plugin for detecting inactive users.",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/old-users-notifier",
+        "wplink": "#",
+        "category": [ "php", "wordpress", "react"],
+        "photo": "",
+        "photo_small": ""
       }
     ]
   }
