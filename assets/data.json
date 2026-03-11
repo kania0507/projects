@@ -288,6 +288,18 @@
         "category": [ "php", "wordpress", "react"],
         "photo": "",
         "photo_small": ""
+      },
+            {
+        "id": "24",
+        "name": "slick theme",
+        "shortdesc": "Modern WooCommerce storefront built with Sage 10, TailwindCSS, and Vite.",
+        "desc": "Modern WooCommerce storefront built with Sage 10, TailwindCSS, and Vite.",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/slick",
+        "wplink": "#",
+        "category": [ "php", "wordpress", "figma"],
+        "photo": "screenshot.png",
+        "photo_small": "screenshot.png"
       }
     ]
   }
