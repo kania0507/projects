@@ -255,15 +255,16 @@
       },
       {
         "id": "22",
-        "name": "NVue",
-        "shortdesc": "Application reads data from rest-api source, data can be ranked with stars (VueJS), not styled. ",
-        "desc": "Application reads data from rest-api source, data can be ranked with stars (VueJS), not styled. ",
+        "name": "slick theme",
+        "shortdesc": "Modern WooCommerce storefront built with Sage 10, TailwindCSS, and Vite.",
+        "desc": "Modern WooCommerce storefront built with Sage 10, TailwindCSS, and Vite.",
         "link": "#",
-        "ghlink": "https://github.com/kania0507/nvue",
+        "ghlink": "https://github.com/kania0507/slick",
         "wplink": "#",
-        "category": [ "vue"],
-        "photo": "nvue.png",
-        "photo_small": "nvuesm.png"
+        "category": [ "php", "wordpress", "figma"],
+        "photo": "screenshot.png",
+        "photo_small": "screenshot.png"
+        
       },
       {
         "id": "23",
@@ -289,17 +290,17 @@
         "photo": "",
         "photo_small": ""
       },
-            {
-        "id": "24",
-        "name": "slick theme",
-        "shortdesc": "Modern WooCommerce storefront built with Sage 10, TailwindCSS, and Vite.",
-        "desc": "Modern WooCommerce storefront built with Sage 10, TailwindCSS, and Vite.",
+      {
+        "id": "25",
+        "name": "NVue",
+        "shortdesc": "Application reads data from rest-api source, data can be ranked with stars (VueJS), not styled. ",
+        "desc": "Application reads data from rest-api source, data can be ranked with stars (VueJS), not styled. ",
         "link": "#",
-        "ghlink": "https://github.com/kania0507/slick",
+        "ghlink": "https://github.com/kania0507/nvue",
         "wplink": "#",
-        "category": [ "php", "wordpress", "figma"],
-        "photo": "screenshot.png",
-        "photo_small": "screenshot.png"
+        "category": [ "vue"],
+        "photo": "nvue.png",
+        "photo_small": "nvuesm.png"
       }
     ]
   }
