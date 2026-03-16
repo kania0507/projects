@@ -74,6 +74,51 @@ const Projects = {
                 <li v-bind:class="{ active: currentFilter === 'all' }" @click.prevent="setFilter('all')">ALL</li>
                 <li v-for="(cat, index) in this.categories" class="cat"  :class="{ active: currentFilter === cat }" @click.prevent="setFilter(cat)" >{{ cat }}</li>
             </ul>
+
+<div class="gh-tech">
+
+    <div class="gh-bar">
+
+        <div 
+            v-for="tech in technologiesStats"
+            :key="tech.name"
+            class="gh-bar-part"
+            :class="{active: currentFilter === tech.name}"
+            :style="{
+                width: tech.percent + '%',
+                background: techColors[tech.name] || '#ccc'
+            }"
+            @click="setFilter(tech.name)"
+        ></div>
+
+    </div>
+
+    <div class="gh-legend">
+
+        <span 
+            class="legend-item legend-all"
+            :class="{active: currentFilter === 'all'}"
+            @click="setFilter('all')"
+        >
+            ● All
+        </span>
+
+        <span 
+            v-for="tech in technologiesStats"
+            :key="tech.name"
+            class="legend-item"
+            :class="{active: currentFilter === tech.name}"
+            @click="setFilter(tech.name)"
+        >
+            <i :style="{background: techColors[tech.name] || '#ccc'}"></i>
+            {{ tech.name }} {{ tech.percent.toFixed(1) }}%
+        </span>
+
+    </div>
+
+</div>
+
+            
         </div>
         <main class="wrapper" v-if="loading"> 
             <div class="loading">😴 Loading data ...</div> 
@@ -101,7 +146,16 @@ const Projects = {
             filter: 'all',   
             currentFilter: 'all',  
             id: null,
-            projectsList: null
+            projectsList: null,
+            techColors: {
+                php: "#4F5D95",
+                laravel: "#FF2D20",
+                javascript: "#f1e05a",
+                css: "#563d7c",
+                html: "#e34c26",
+                vue: "#41b883",
+                "psd Xd": "#ff61f6"
+            }
         }
     },
     components: {
@@ -145,10 +199,21 @@ const Projects = {
                 this.getProjects(); 
             }
         }, 
-        setFilter (filter) {
-            this.currentFilter = filter;
-            this.getProjects();
-          }, 
+        setFilter(filter) {
+
+            if(filter === 'all'){
+                this.currentFilter = 'all'
+            }
+            else if(this.currentFilter === filter){
+                this.currentFilter = 'all'
+            }
+            else{
+                this.currentFilter = filter
+            }
+
+            this.getProjects()
+        }
+        
     },
     mounted () {
       setTimeout(this.fetchData, 1000);
@@ -160,8 +225,29 @@ const Projects = {
     computed: {
         maxProjectsCount () {
             return this.projects ? (this.currentFilter !== "all" ? this.projects.filter(el => el.category.includes(this.currentFilter)).length : this.projects.length): this.projectsCount
+        },
+        technologiesStats() {
+
+        const counts = {}
+
+        this.projects.forEach(project => {
+        project.category.forEach(cat => {
+            counts[cat] = (counts[cat] || 0) + 1
+            })
+        })
+
+        const total = Object.values(counts).reduce((a,b)=>a+b,0)
+
+        return Object.keys(counts)
+        .map(cat => ({
+            name: cat,
+            count: counts[cat],
+            percent: (counts[cat] / total * 100),
+        }))
+        .sort((a,b)=> b.percent - a.percent) // jak GitHub
         }
-    }
+        
+    }    
 }
 
 // Define routes 
