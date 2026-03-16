@@ -297,3 +297,61 @@ img.hover-shadow {
 .nav {
   text-align: center;
 }
+
+
+.gh-tech{
+    margin-bottom:30px;
+}
+
+/* pasek */
+
+.gh-bar{
+    display:flex;
+    height:8px;
+    border-radius:6px;
+    overflow:hidden;
+    background:#e1e4e8;
+}
+
+.gh-bar-part{
+    cursor:pointer;
+    transition:opacity .2s;
+}
+
+.gh-bar-part:hover{
+    opacity:.8;
+}
+
+/* legenda */
+
+.gh-legend{
+    margin-top:8px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:14px;
+    font-size:13px;
+}
+
+.legend-item{
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
+
+.legend-item i{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    display:inline-block;
+}
+
+/* aktywny filtr */
+
+.legend-item.active{
+    font-weight:600;
+}
+
+.legend-all{
+    margin-right:10px;
+}
