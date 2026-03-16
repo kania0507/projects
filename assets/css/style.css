@@ -360,3 +360,46 @@ img.hover-shadow {
 .gh-bar-part.active{
     outline:2px solid #24292f;
 }
+//
+.gh-bar{
+display:flex;
+height:8px;
+border-radius:6px;
+overflow:hidden;
+background:#e1e4e8;
+}
+
+.gh-bar-part{
+cursor:pointer;
+transition:opacity .2s;
+}
+
+.gh-bar-part:hover{
+opacity:.8;
+}
+
+.gh-legend{
+margin-top:10px;
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+font-size:13px;
+}
+
+.legend-item{
+cursor:pointer;
+display:flex;
+align-items:center;
+gap:6px;
+}
+
+.legend-item i{
+width:10px;
+height:10px;
+border-radius:50%;
+display:inline-block;
+}
+
+.legend-item.active{
+font-weight:600;
+}
