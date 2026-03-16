@@ -301,6 +301,18 @@
         "category": [ "vue"],
         "photo": "nvue.png",
         "photo_small": "nvuesm.png"
+      },
+      {
+        "id": "26",
+        "name": "postselasticvue",
+        "shortdesc": "Node elasticsearch live server + Vuejs CRUD App with ES Search ",
+        "desc": "Node elasticsearch live server + Vuejs CRUD App with ES Search ",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/postselasticvue",
+        "wplink": "#",
+        "category": [ "vue", "Node"],
+        "photo": "",
+        "photo_small": ""
       }
     ]
   }
