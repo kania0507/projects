@@ -70,54 +70,50 @@ const Projects = {
     <div class="content"> 
         
         <div class="wrapper-header">
-            <ul class="category">
+            <!--<ul class="category">
                 <li v-bind:class="{ active: currentFilter === 'all' }" @click.prevent="setFilter('all')">ALL</li>
                 <li v-for="(cat, index) in this.categories" class="cat"  :class="{ active: currentFilter === cat }" @click.prevent="setFilter(cat)" >{{ cat }}</li>
-            </ul>
+            </ul>-->
 
-<div class="gh-tech">
-
-    <div class="gh-bar">
-
-        <div 
-            v-for="tech in technologiesStats"
-            :key="tech.name"
-            class="gh-bar-part"
-            :class="{active: currentFilter === tech.name}"
-            :style="{
-                width: tech.percent + '%',
-                background: techColors[tech.name] || '#ccc'
-            }"
-            @click="setFilter(tech.name)"
-        ></div>
-
-    </div>
-
-    <div class="gh-legend">
-
-        <span 
-            class="legend-item legend-all"
-            :class="{active: currentFilter === 'all'}"
-            @click="setFilter('all')"
-        >
-            ● All
-        </span>
-
-        <span 
-            v-for="tech in technologiesStats"
-            :key="tech.name"
-            class="legend-item"
-            :class="{active: currentFilter === tech.name}"
-            @click="setFilter(tech.name)"
-        >
-            <i :style="{background: techColors[tech.name] || '#ccc'}"></i>
-            {{ tech.name }} {{ tech.percent.toFixed(1) }}%
-        </span>
-
-    </div>
-
-</div>
-
+            <div class="gh-tech">
+                <div class="gh-bar">
+                    <div 
+                        v-for="tech in technologiesStats"
+                        :key="tech.name"
+                        class="gh-bar-part"
+                        :class="{active: currentFilter === tech.name}"
+                        :style="{
+                            width: tech.percent + '%',
+                            background: techColors[tech.name] || '#ccc'
+                        }"
+                        @click="setFilter(tech.name)"
+                    ></div>
+            
+                </div>
+            
+                <div class="gh-legend">
+            
+                    <span 
+                        class="legend-item legend-all"
+                        :class="{active: currentFilter === 'all'}"
+                        @click="setFilter('all')"
+                    >
+                        ALL
+                    </span>
+            
+                    <span 
+                        v-for="tech in technologiesStats"
+                        :key="tech.name"
+                        class="legend-item"
+                        :class="{active: currentFilter === tech.name}"
+                        @click="setFilter(tech.name)"
+                    >
+                        <i :style="{background: techColors[tech.name] || '#ccc'}"></i>
+                        {{ tech.name }} {{ tech.percent.toFixed(1) }}%
+                    </span>
+            
+                </div>            
+            </div>
             
         </div>
         <main class="wrapper" v-if="loading"> 
