@@ -9,7 +9,7 @@
         "link": "https://taxi-git-master.kania0507.vercel.app/",
         "ghlink": "https://github.com/kania0507/taxi",
         "wplink": "#", 
-        "category": ["php", "laravel", "psd Xd"],
+        "category": ["php", "laravel", "psd|Xd|Figma2HTML"],
         "photo": "Taxi Cab Service Company Website Template PSD.png",
         "photo_small": "TaxiCabServiceCompanyWebsiteTemplatePSDsm.png"
       },
@@ -45,7 +45,7 @@
         "link": "http://mylucid-git-master.kania0507.vercel.app/",
         "ghlink": "https://github.com/kania0507/mylucid",
         "wplink": "#",
-        "category": ["psd Xd"],
+        "category": ["psd|Xd|Figma2HTML"],
         "photo": "mylucid.jpg",
         "photo_small": "mylucidsm.jpg"
       },
@@ -141,7 +141,7 @@
         "link": "#",
         "ghlink": "https://github.com/kania0507/fm-product-ecomm",
         "wplink": "#",
-        "category": [ "other" ],
+        "category": [ "psd|Xd|Figma2HTML" ],
         "photo": "ecomm-desktop-preview.jpg",
         "photo_small": "ecomm-desktop-previewsm.jpg"
       },
@@ -153,7 +153,7 @@
         "link": "#",
         "ghlink": "#",
         "wplink": "#",
-        "category": [ "php", "wordpress", "psd Xd"],
+        "category": [ "php", "wordpress", "psd|Xd|Figma2HTML"],
         "photo": "organix.png",
         "photo_small": "organixsm.png"
       },
@@ -165,7 +165,7 @@
         "link": "#",
         "ghlink": "#",
         "wplink": "#",
-        "category": [ "psd Xd", "vue" ],
+        "category": [ "psd|Xd|Figma2HTML", "vue" ],
         "photo": "laresta-front.png",
         "photo_small": "laresta-frontsm.png"
       },
@@ -189,7 +189,7 @@
         "link": "#",
         "ghlink": "https://github.com/kania0507/mivi",
         "wplink": "#",
-        "category": [ "psd Xd" ],
+        "category": [ "psd|Xd|Figma2HTML" ],
         "photo": "MiviLandingPageTemplate-xd.png",
         "photo_small": "MiviLandingPageTemplate-xdsm.png"
       },
@@ -225,7 +225,7 @@
         "link": "https://unlimit-6qnp.vercel.app/",
         "ghlink": "https://github.com/kania0507/unlimit",
         "wplink": "#", 
-        "category": ["figma"],
+        "category": ["psd|Xd|Figma2HTML"],
         "photo": "unlimit.jpg",
         "photo_small": "unlimitsm.jpg"
       },
@@ -261,7 +261,7 @@
         "link": "#",
         "ghlink": "https://github.com/kania0507/slick",
         "wplink": "#",
-        "category": [ "php", "wordpress", "figma"],
+        "category": [ "php", "wordpress", "psd|Xd|Figma2HTML"],
         "photo": "screenshot.png",
         "photo_small": "screenshot.png"
         
