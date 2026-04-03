@@ -313,6 +313,18 @@
         "category": [ "vue", "Node"],
         "photo": "",
         "photo_small": ""
+      },
+      {
+        "id": "27",
+        "name": "assembly-mgr-vue",
+        "shortdesc": "A fullstack application for managing: products, assembly lines, workstations, allocations (workstation - assembly line). Built with Vue 3 + Pinia + Vite (frontend) and Node.js + Express + Prisma (backend), with proper authentication and security mechanisms.",
+        "desc": "A fullstack application for managing: products, assembly lines, workstations, allocations (workstation - assembly line). Built with Vue 3 + Pinia + Vite (frontend) and Node.js + Express + Prisma (backend), with proper authentication and security mechanisms.",
+        "link": "#",
+        "ghlink": "https://github.com/kania0507/assembly-mgr-vue",
+        "wplink": "#",
+        "category": [ "vue", "Node"],
+        "photo": "",
+        "photo_small": ""
       }
     ]
   }
